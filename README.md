@@ -28,7 +28,7 @@
 
 	`chmod +x post-receive`
 
-3. Now on local machine
+## Now on local machine
 
  	1. In blank directory that you want to use for local(dev) directory run the folling:
 
@@ -41,7 +41,7 @@
      
        scp -r $user@your.server.example.com:/path/to/foo /home/user/Desktop/
 
-# Adding local changes (1-3) and deploying to prod (4)
+## Adding local changes (1-3) and deploying to prod (4)
 
 	1. Git add . 
 	2. Git status 
@@ -49,7 +49,7 @@
 	4. Git push prod master
 	
 	
-# To revert a commit on Prod(Master) run this on the remote
+## To revert a commit on Prod(Master) run this on the remote
 
         git update-ref HEAD prior-hash-here
 
