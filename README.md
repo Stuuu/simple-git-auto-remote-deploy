@@ -2,7 +2,7 @@
 
 
 
-# Steps to setup Automatic remote deploy
+## Remote Setup 
 
 1. On Remote(Prod) create a new directory to house Git Repo and files for your application
 
