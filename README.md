@@ -30,16 +30,15 @@
 
 ## Now on local machine
 
- 	1. In blank directory that you want to use for local(dev) directory run the folling:
+ 1. In blank directory that you want to use for local(dev) directory run the following to: initialize git > and add your remote repo (Prod):
 
         Git init 
-	2. add remote 
-	
+    	add remote 
         git remote add prod ssh://$remoteuser@$remote-machine.com/var/www/$project_directory/git
 	
      3. SCP down the existing project #there is probably a gitty'er way to do this part submit a PR and tell me the right way
-     
-       scp -r $user@your.server.example.com:/path/to/foo /home/user/Desktop/
+
+    		scp -r $user@your.server.example.com:/path/to/foo /home/user/Desktop/
 
 ## Adding local changes (1-3) and deploying to prod (4)
 
